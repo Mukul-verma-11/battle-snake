@@ -125,6 +125,7 @@ body{
 
 
 .scores{
+    margin-top:px;
     position:fixed;
     z-index:11;
     top:0;
