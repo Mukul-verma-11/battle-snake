@@ -6,20 +6,6 @@
         <link rel="stylesheet" href="css/main.css">
         <title>BattleSnake v0.1</title>
     </head>
-    <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/63516d84b0d6371309ca9a12/1gfr17jg9';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
-    
     <body class="preload1 preload2" onload="game.start()">
         <div id="overlay" class="overlay hidden">
             <div class="gameover">GAME OVER</div>
@@ -37,21 +23,17 @@ s0.parentNode.insertBefore(s1,s0);
 
         <div class="scores">
             <div class="p1score score">
-                Player 1 : BLUE  <br>
+                PLAYER 1 : BLUE <br>
                 LENGTH: 
                 <span class="p1length">0</span><br>
-<!--                 WINS: 
-                <span class="p1wins">0</span> -->
-                
+                WINS: 
+                <span class="p1wins">0</span>
             </div>
             <div class="p2score score">
-                Player 2 : RED <br>
-                LENGTH:
-                <span class="p2length">0</span><br>
-<!--                 WINS:
-                <span class="p2wins">0</span> -->
+                PLAYER 2 : RED <br>
+                <span class="p2length">0</span> :LENGTH<br>
+                <span class="p2wins">0</span> :WINS
             </div>
-            
         </div>
 
         <canvas id="battlesnake" class="battlesnake"></canvas>
